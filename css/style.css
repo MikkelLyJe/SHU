@@ -1,0 +1,100 @@
+/*Global*/
+* {
+    box-sizing: border-box;
+    background-color: #fcfcfa;    
+}
+body {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    letter-spacing: -0.02em;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 0.7em;
+    font-size: 1.9em;
+    margin-bottom: 5%;
+}
+.menu ul li {
+    margin-top: 16%;
+    font-size: 1.3em;
+    letter-spacing: -0.04em;
+}
+a {
+    text-decoration: none;
+}
+#boxes {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    border: none;
+    }
+input, textarea, button {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    font-size: 1em;
+    text-decoration-style: none;
+}
+#name, #textbody {
+    background-color: #d2d7da
+}
+button {
+    background-color: #d2d7da;
+    
+}
+textarea {
+    height: 100px;
+}
+.gallery {
+    margin-top: 5%;
+    width: 80%;
+    float: left;
+    margin-left: 20%;
+}
+.gallery p {
+    text-align: left;
+    letter-spacing: 0.3em;
+}
+.menu {
+    width:20%;
+    height: 100%;
+    position:fixed;
+    text-align: center;
+}
+#logo {
+    width: 90%;
+    margin-top: 10%;
+}
+#about {
+    width: 100%;
+    padding: 5%;
+    margin-top: -5%;
+}
+#about p {
+    float: left;
+    width: 65%;
+    line-height: 1.5em;
+    margin-right: 5%;
+}
+#me{
+    width: 30%;
+}
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    3;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           15px;
+    margin-right: 15px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+    margin-top: 15px;
+}
